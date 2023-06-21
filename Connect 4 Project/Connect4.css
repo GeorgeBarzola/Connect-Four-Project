@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: rgb(2, 41, 125);
+    border: 10px solid rgb(21, 21, 22);
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
+
+#restartButton{
+    color: black;
+    box-shadow: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgba(255, 1, 1, 0.771);
+    height: 60px;
+    width: 130px;
+    margin-top: 20px;
+}
